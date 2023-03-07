@@ -1,9 +1,9 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.8
 import PackageDescription
 let package = Package(
     name: "ZendeskSupportSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v15)
     ],
     products: [
         .library(
